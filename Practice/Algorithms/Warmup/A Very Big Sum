@@ -1,0 +1,8 @@
+long aVeryBigSum(int ar_count, long* ar) {
+    long answer=0;
+    for(int i=0;i<ar_count;i++)
+    {
+        answer=answer+ar[i];
+    }
+return answer;
+}
